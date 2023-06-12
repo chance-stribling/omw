@@ -43,7 +43,7 @@ export default {
       {
         title: 'i3 Verticals Developer Demo Project',
         description:
-          'Demonstration of CSS animations, Javascript fundamentals and a few examples of the Motion One library in action. Built using the Vue JS and the Vuetify library.',
+          'Demonstration of CSS animations, Javascript fundamentals and a few examples of the Motion One library in action. Built using Vue JS and the Vuetify library.',
         action: true
       },
       {
