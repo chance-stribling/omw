@@ -40,6 +40,13 @@
   </div>
 </template>
 <style scoped>
+@media only screen and (max-width: 600px) {
+  .panels {
+  width: 100vw;
+  padding: 50px 0;
+}
+  
+}
 .bigger {
   font-size: 20px;
 }
