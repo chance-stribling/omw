@@ -20,10 +20,16 @@
 .main1 {
   max-height: 100vh;
   width: 100vw;
-  background-color: black;
   color: white;
   text-align: center;
   padding: 200px;
+  background: repeating-linear-gradient(
+  45deg,
+  rgb(74, 74, 74),
+  rgb(74, 74, 74) 10px,
+  black 10px,
+  black 20px
+);
 }
 .main1 h1,
 h3 {
