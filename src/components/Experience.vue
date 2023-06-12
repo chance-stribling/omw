@@ -81,8 +81,8 @@ export default {
       {
         title: 'QC Analyst',
         location: 'i3 Verticals',
-        start: 'May 2023',
-        end: 'June 2023',
+        start: 'December 2023',
+        end: 'Current',
         descriptions: [
           'Perform manual and automated tests to ensure the software developed by developers is fit to use.',
           'Communicate test progress, test results, and other relevant information to project managers.',
@@ -92,8 +92,8 @@ export default {
       {
         title: 'Java Developer',
         location: 'CGI Federal',
-        start: 'May 2023',
-        end: 'June 2023',
+        start: 'May 2022',
+        end: 'July 2022',
         descriptions: [
           'Was introduced to Agile methodologies in an enterprise setting.',
           'Used Spring Boot, H2, NodeJs, and AngularJS to make a syllabus manager for future training.',
@@ -103,8 +103,8 @@ export default {
       {
         title: 'Network Technician',
         location: 'Motion Lite Service',
-        start: 'May 2023',
-        end: 'June 2023',
+        start: 'February 2022',
+        end: 'May 2022',
         descriptions: [
           'Maintained and improved infrastructure for clients.',
           'Ran CAT 5e/6 cable, troubleshot network equipment, and installed software.',
@@ -114,8 +114,8 @@ export default {
       {
         title: 'Repair Technician',
         location: 'UBreakIFix by Asurion',
-        start: 'May 2023',
-        end: 'June 2023',
+        start: 'February 2021',
+        end: 'February 2022',
         descriptions: [
           'Troubleshot and repaired mobile devices, televisions, PCs, and various other devices with interchangeable parts. ',
           'Kept in constant contact with customers to inform them of the status of their repairs and walked them through the next steps.'
@@ -124,8 +124,8 @@ export default {
       {
         title: 'QA Tester',
         location: 'Electronic Arts Studio',
-        start: 'May 2023',
-        end: 'June 2023',
+        start: 'October 2020',
+        end: 'February 2021',
         descriptions: [
           'Tasked with using Jira and TestRail to locate and validate any bugs found while testing. ',
           'Trained to follow proper beta testing procedures and how to make testing reports.',
