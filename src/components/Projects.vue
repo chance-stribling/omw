@@ -1,8 +1,8 @@
 <template>
   <div class="main3" id="projects">
-    <h1 style="text-align: center; padding-top: 50px"><i>Projects</i></h1>
+    <h1 style="text-align: center; padding: 50px"><i>Projects</i></h1>
     <div style="max-width: 70vw" class="mx-auto my-5">
-      <v-row class="my-15">
+      <v-row>
         <v-card
           min-height="200px"
           width="70vw"
@@ -26,10 +26,11 @@
 </template>
 <style scoped>
 .main3 {
-  min-height: 180vh;
+  min-height: 120vh;
   width: 100vw;
   background-color: #aedcc0;
   color: black;
+  padding-bottom: 15px;
 }
 .card-hover:hover {
   scale: 1.01;

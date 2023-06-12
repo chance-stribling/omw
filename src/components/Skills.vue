@@ -1,8 +1,8 @@
 <template>
   <div class="main3" id="skills">
-    <h1 style="text-align: center; padding-top: 50px"><i>SKILLS</i></h1>
+    <h1 style="text-align: center; padding: 50px"><i>SKILLS</i></h1>
     <div style="max-width: 800px" class="mx-auto">
-      <v-row class="my-15">
+      <v-row>
         <v-card height="180px" width="180px" class="card-hover mx-1 my-1" v-for="skill in skills">
           <v-card-title class="text-uppercase text-center mt-12">{{ skill.title }}</v-card-title>
           <v-card-subtitle>
@@ -14,11 +14,13 @@
   </div>
 </template>
 <style scoped>
+
 .main3 {
-  min-height: 170vh;
+  min-height: 100vh;
   width: 100vw;
   background-color: #607466;
   color: white;
+  padding-bottom: 50px;
 }
 .card-hover:hover {
   scale: 1.1;
