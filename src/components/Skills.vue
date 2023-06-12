@@ -15,7 +15,7 @@
 </template>
 <style scoped>
 .main3 {
-  min-height: 110vh;
+  min-height: 170vh;
   width: 100vw;
   background-color: #607466;
   color: white;
