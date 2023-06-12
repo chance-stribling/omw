@@ -3,13 +3,15 @@
       class="bg-brown-lighten-1 text-center d-flex flex-column"
     >
       <div>
-        <v-btn
-          v-for="item in icons"
-          :key="item"
-          class="mx-4"
-          :icon="item.icon"
-          variant="text"
-        ></v-btn>
+        
+          <v-btn
+          @click="gh"
+          icon="mdi-github"
+          ></v-btn>
+          <v-btn
+          @click="li"
+          icon="mdi-linkedin"
+          ></v-btn>
       </div>
   
       <div class="pt-0">
@@ -35,5 +37,15 @@
         }
       ],
     }),
+    methods:{
+      gh: function(){
+        window.location.href = 'https://www.github.com/chance-stribling';
+
+      },
+      li: function(){
+        window.location.href = 'https://linkedin.com/in/chance-stribling';
+
+      }
+    }
   }
 </script>

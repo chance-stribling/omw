@@ -26,7 +26,7 @@
   <style scoped>
 
   .main3 {
-    height: 120vh;
+    min-height: 120vh;
     width: 100vw;
     background-color: white;
     color: black;
