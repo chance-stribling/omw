@@ -36,6 +36,12 @@ h3 {
   flex-direction: row;
   justify-content: space-around;
 }
+@media only screen and (max-width: 600px) {
+  .navigation{
+    display: flex;
+  flex-direction: column;
+  }
+}
 </style>
 <script>
 export default {

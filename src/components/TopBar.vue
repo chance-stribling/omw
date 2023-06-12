@@ -15,6 +15,7 @@
   </v-app-bar>
 </template>
 <style scoped>
+
 .bisque {
   color: bisque;
 }
