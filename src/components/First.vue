@@ -26,9 +26,9 @@
   background: repeating-linear-gradient(
   45deg,
   rgb(74, 74, 74),
-  rgb(74, 74, 74) 10px,
-  black 10px,
-  black 20px
+  rgb(74, 74, 74) 50px,
+  black 50px,
+  black 60px
 );
 }
 .main1 h1,
