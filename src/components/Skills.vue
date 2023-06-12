@@ -42,7 +42,7 @@ export default {
         },
         {
             title: 'golang',
-            rating: 4
+            rating: 3
         },
         {
             title: 'html',
@@ -78,11 +78,11 @@ export default {
         },
         {
             title: 'waterfall',
-            rating: 4
+            rating: 5
         },
         {
             title: 'scrum',
-            rating: 4
+            rating: 5
         },
         {
             title: 'Angular JS',
