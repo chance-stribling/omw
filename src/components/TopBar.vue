@@ -7,11 +7,9 @@
     <template v-slot:append>
       <v-btn>
         <v-icon class="bisque" icon="mdi-email-box" @click="copyToClip"></v-icon>
-        <v-tooltip
-        activator="parent"
-        location="start"
-        class="text-center"
-      >Copy Email to Clipboard</v-tooltip>
+        <v-tooltip activator="parent" location="start" class="text-center"
+          >Copy Email to Clipboard</v-tooltip
+        >
       </v-btn>
     </template>
   </v-app-bar>
@@ -34,15 +32,14 @@ export default {
       window.scrollTo(0, 0)
     },
     copyToClip() {
-  // Get the text field
-  var copyText = 'cstribling1717@gmail.com';
+      // Get the text field
+      var copyText = 'cstribling1717@gmail.com'
 
-  // Select the text field
+      // Select the text field
 
-
-   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText);
-      window.alert('Copied "' + copyText + '" to clipboard');
+      // Copy the text inside the text field
+      navigator.clipboard.writeText(copyText)
+      window.alert('Copied "' + copyText + '" to clipboard')
     }
   }
 }

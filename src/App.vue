@@ -2,8 +2,8 @@
 import TopBar from './components/TopBar.vue'
 import First from './components/First.vue'
 import Experience from './components/Experience.vue'
-import Skills from './components/Skills.vue';
-import Projects from './components/Projects.vue';
+import Skills from './components/Skills.vue'
+import Projects from './components/Projects.vue'
 import Footer from './components/Footer.vue'
 </script>
 
@@ -16,9 +16,9 @@ import Footer from './components/Footer.vue'
       <v-main>
         <First />
         <Experience />
-        <Skills/>
-        <Projects/>
-        <Footer/>
+        <Skills />
+        <Projects />
+        <Footer />
       </v-main>
     </v-container>
   </v-app>
