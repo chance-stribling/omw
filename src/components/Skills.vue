@@ -32,43 +32,43 @@ export default {
     skills: [
       {
         title: 'css',
-        rating: 4
+        rating: 5
       },
       {
         title: 'golang',
-        rating: 3
+        rating: 5
       },
       {
         title: 'html',
-        rating: 4
+        rating: 5
       },
       {
         title: 'java',
-        rating: 4
+        rating: 5
       },
       {
         title: 'javascript',
-        rating: 4
+        rating: 5
       },
       {
         title: 'php',
-        rating: 3
+        rating: 5
       },
       {
         title: 'sql',
-        rating: 4
+        rating: 5
       },
       {
         title: 'swift',
-        rating: 4
+        rating: 5
       },
       {
         title: 'typescript',
-        rating: 3
+        rating: 5
       },
       {
         title: 'agile',
-        rating: 4
+        rating: 5
       },
       {
         title: 'waterfall',
@@ -80,19 +80,19 @@ export default {
       },
       {
         title: 'Angular JS',
-        rating: 4
+        rating: 5
       },
       {
         title: 'spring boot',
-        rating: 4
+        rating: 5
       },
       {
         title: 'swift ui',
-        rating: 4
+        rating: 5
       },
       {
         title: 'vue js',
-        rating: 4
+        rating: 5
       }
     ]
   })

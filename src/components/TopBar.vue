@@ -33,7 +33,7 @@ export default {
       window.scrollTo(0, 0)
     },
     copyToClip() {
-      var copyText = 'cstribling1717@gmail.com'
+      const copyText = 'cstribling1717@gmail.com'
       navigator.clipboard.writeText(copyText)
       window.alert('Copied "' + copyText + '" to clipboard')
     }
