@@ -17,7 +17,7 @@
 <style scoped>
 
 .bisque {
-  color: bisque;
+  color: #7bd389;
 }
 .pointer {
   cursor: pointer;

@@ -4,7 +4,7 @@
     <div class="panels mx-auto">
       <v-expansion-panels variant="popout">
         <v-expansion-panel v-for="job in jobs">
-          <v-expansion-panel-title color="black">
+          <v-expansion-panel-title color="#607466" class="text-white">
             <v-row no-gutters style="line-height: 50px">
               <v-col cols="4" class="d-flex justify-start font-weight-black bigger">
                 {{ job.title }}
@@ -30,7 +30,7 @@
                 v-for="description in job.descriptions"
                 :key="description"
                 :title="description"
-                style="background-color: black; color: white"
+                style="background-color: #343e3d; color: white"
               ></v-list-item>
             </v-list>
           </v-expansion-panel-text>
@@ -44,12 +44,8 @@
   font-size: 20px;
 }
 .expan {
-  background-color: black;
+  background-color: #343e3d;
   color: white;
-}
-.expan li:hover {
-  color: yellow;
-  background-color: rgb(52, 52, 52);
 }
 .panels {
   width: 90vw;
@@ -58,8 +54,7 @@
 .main2 {
   min-height: 94vh;
   width: 100vw;
-  background-color: bisque;
-  color: black;
+  background-color: #aedcc0;
 }
 ul {
   line-height: 40px;

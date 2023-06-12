@@ -5,17 +5,18 @@
     <h3>QC Analyst</h3>
     <h3>Father</h3>
     <div class="navigation">
-      <v-btn class="bisque" @click="scrollToExperience('experience')">Experience</v-btn>
-      <v-btn class="bisque" @click="scrollToExperience('skills')">Skills</v-btn>
-      <v-btn class="bisque" @click="scrollToExperience('projects')">Projects</v-btn>
+      <v-btn variant="outlined" class="bisque" @click="scrollToExperience('experience')">Experience</v-btn>
+      <v-btn variant="outlined" class="bisque" @click="scrollToExperience('skills')">Skills</v-btn>
+      <v-btn variant="outlined" class="bisque" @click="scrollToExperience('projects')">Projects</v-btn>
     </div>
   </div>
 </template>
 <style scoped>
 .bisque {
-  background-color: bisque;
+  background-color: #343e3d;
   font-size: 20px;
   width: 150px;
+  color: white;
 }
 .main1 {
   max-height: 100vh;
@@ -25,10 +26,10 @@
   padding: 200px;
   background: repeating-linear-gradient(
   45deg,
-  rgb(74, 74, 74),
-  rgb(74, 74, 74) 50px,
-  black 50px,
-  black 60px
+  #343e3d,
+  #343e3d 50px,
+  #607466 50px,
+  #607466 60px
 );
 }
 .main1 h1,

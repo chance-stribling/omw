@@ -17,12 +17,12 @@
 .main3 {
   min-height: 110vh;
   width: 100vw;
-  background-color: black;
+  background-color: #607466;
   color: white;
 }
 .card-hover:hover {
   scale: 1.1;
-  color: brown;
+  color: #7bd389;
 }
 </style>
 <script>

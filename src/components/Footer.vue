@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="bg-brown-lighten-1 text-center d-flex flex-column">
+  <v-footer color="#343e3d" class="text-center d-flex flex-column text-white">
     <div class="my-5">
       <v-btn @click="gh" icon="mdi-github" class="mx-5"></v-btn>
       <v-btn @click="li" icon="mdi-linkedin" class="mx-5"></v-btn>

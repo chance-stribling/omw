@@ -6,7 +6,7 @@
         <v-card
           min-height="200px"
           width="70vw"
-          color="black"
+          color="white"
           class="card-hover mx-1 my-1"
           v-for="project in projects"
         >
@@ -16,7 +16,7 @@
           </v-card-text>
           <v-card-actions class="justify-center" v-if="project.action">
             <a href="https://chance-stribling.github.io/stribbles-and-bits/#/">
-              <v-btn variant="outlined" color="white"> Link </v-btn>
+              <v-btn variant="outlined" color="black" > Link </v-btn>
             </a>
           </v-card-actions>
         </v-card>
@@ -28,12 +28,11 @@
 .main3 {
   min-height: 120vh;
   width: 100vw;
-  background-color: white;
+  background-color: #aedcc0;
   color: black;
 }
 .card-hover:hover {
   scale: 1.01;
-  color: brown;
 }
 </style>
 <script>
