@@ -38,7 +38,7 @@ export default {
       },
       {
         title: 'golang',
-        rating: 5
+        rating: 4
       },
       {
         title: 'html',
