@@ -2,8 +2,8 @@
   <div class="main3" id="skills">
     <h1 style="text-align: center; padding: 50px"><i>SKILLS</i></h1>
     <div style="max-width: 800px" class="mx-auto">
-      <v-row>
-        <v-card height="180px" width="180px" class="card-hover mx-1 my-1" v-for="skill in skills">
+      <v-row class="mx-auto">
+        <v-card height="180px" width="180px" class="card-hover mx-auto my-1" v-for="skill in skills">
           <v-card-title class="text-uppercase text-center mt-12">{{ skill.title }}</v-card-title>
           <v-card-subtitle>
             <v-rating v-model="skill.rating" readonly size="x-small"></v-rating>
