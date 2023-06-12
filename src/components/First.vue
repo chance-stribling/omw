@@ -18,12 +18,12 @@
   width: 150px;
 }
 .main1 {
-  height: fit-content;
+  max-height: 100vh;
   width: 100vw;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 50vh 0;
+  padding: 200px;
 }
 .main1 h1,
 h3 {

@@ -2,15 +2,18 @@
     <v-footer
       class="bg-brown-lighten-1 text-center d-flex flex-column"
     >
-      <div>
+      <div class="my-5">
         
           <v-btn
           @click="gh"
           icon="mdi-github"
+          class="mx-5"
           ></v-btn>
           <v-btn
           @click="li"
           icon="mdi-linkedin"
+          class="mx-5"
+
           ></v-btn>
       </div>
   
@@ -29,14 +32,7 @@
 
   <script>
   export default {
-    data: () => ({
-      icons: [
-        {
-            icon:'mdi-github',
-            to:'github.com/chance-stribling',
-        }
-      ],
-    }),
+
     methods:{
       gh: function(){
         window.location.href = 'https://www.github.com/chance-stribling';
