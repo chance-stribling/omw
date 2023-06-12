@@ -40,6 +40,7 @@ h3 {
   .navigation{
     display: flex;
   flex-direction: column;
+  width: 50vw;
   }
 }
 </style>
