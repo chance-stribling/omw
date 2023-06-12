@@ -43,7 +43,7 @@ export default {
       {
         title: 'i3 Verticals Developer Demo Project',
         description:
-          'Worked closely in a team of three to develop a smartwatch prototype. Utilized an Arduino board, 3D modeling and printing, and developed with GoLang.',
+          'Demonstration of CSS animations, Javascript fundamentals and a few examples of the Motion One library in action. Built using the Vue JS and the Vuetify library.',
         action: true
       },
       {
