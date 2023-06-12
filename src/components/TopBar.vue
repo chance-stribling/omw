@@ -32,12 +32,7 @@ export default {
       window.scrollTo(0, 0)
     },
     copyToClip() {
-      // Get the text field
       var copyText = 'cstribling1717@gmail.com'
-
-      // Select the text field
-
-      // Copy the text inside the text field
       navigator.clipboard.writeText(copyText)
       window.alert('Copied "' + copyText + '" to clipboard')
     }
