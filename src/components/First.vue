@@ -48,7 +48,9 @@ h3 {
     display: flex;
   flex-direction: column;
   width: 50vw;
+  margin: 15px auto;
   }
+  
 }
 </style>
 <script>
