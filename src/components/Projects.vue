@@ -5,9 +5,9 @@
       <v-row>
         <v-card
           min-height="200px"
-          width="70vw"
+          width="60vw"
           color="white"
-          class="card-hover mx-1 my-1"
+          class="card-hover mx-auto my-1"
           v-for="project in projects"
         >
           <v-card-title class="text-center mt-12">{{ project.title }}</v-card-title>
