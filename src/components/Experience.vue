@@ -45,6 +45,9 @@
   width: 100vw;
   padding: 50px 0;
 }
+.bigger {
+  font-size: 12px;
+}
   
 }
 .bigger {
