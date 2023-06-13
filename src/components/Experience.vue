@@ -5,7 +5,7 @@
       <v-expansion-panels variant="popout">
         <v-expansion-panel v-for="job in jobs">
           <v-expansion-panel-title color="#607466" class="text-white">
-            <v-row no-gutters style="line-height: 50px">
+            <v-row style="line-height: 50px">
               <v-col cols="4" class="d-flex justify-start font-weight-black bigger">
                 {{ job.title }}
               </v-col>
