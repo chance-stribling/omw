@@ -13,7 +13,7 @@
                 {{ job.location }}
               </v-col>
               <v-col cols="5" class="text--secondary">
-                <v-row no-gutters style="width: 100%">
+                <v-row style="width: 100%">
                   <v-col cols="6" class="d-flex justify-start">
                     Start Date: {{ job.start || 'Not set' }}
                   </v-col>
@@ -29,9 +29,10 @@
               <v-list-item
                 v-for="description in job.descriptions"
                 :key="description"
-                :title="description"
-                style="background-color: #343e3d; color: white"
-              ></v-list-item>
+                style="background-color: #343e3d; color: white; width: 100%;"
+              >
+            <v-list-title>{{ description }}</v-list-title>
+            </v-list-item>
             </v-list>
           </v-expansion-panel-text>
         </v-expansion-panel>
@@ -40,16 +41,8 @@
   </div>
 </template>
 <style scoped>
-@media only screen and (max-width: 600px) {
-  .panels {
-  width: 100vw;
-  padding: 50px 0;
-}
-.bigger {
-  font-size: 12px;
-}
-  
-}
+
+
 .bigger {
   font-size: 20px;
 }
@@ -63,7 +56,6 @@
 }
 .main2 {
   min-height: 94vh;
-  width: 100vw;
   background-color: #aedcc0;
 }
 ul {
