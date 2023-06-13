@@ -58,9 +58,7 @@
   min-height: 94vh;
   background-color: #aedcc0;
 }
-ul {
-  line-height: 40px;
-}
+
 </style>
 
 <script>
