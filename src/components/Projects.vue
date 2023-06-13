@@ -15,7 +15,7 @@
             {{ project.description }}
           </v-card-text>
           <v-card-actions class="justify-center" v-if="project.action">
-            <a href="https://chance-stribling.github.io/stribbles-and-bits/#/">
+            <a href="https://chance-stribling.github.io/stribbles-and-bits/#/" target="_blank">
               <v-btn variant="outlined" color="black" > Link </v-btn>
             </a>
           </v-card-actions>

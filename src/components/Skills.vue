@@ -5,8 +5,8 @@
       <v-row class="mx-auto">
         <v-card height="180px" width="180px" class="card-hover mx-auto my-1" v-for="skill in skills">
           <v-card-title class="text-uppercase text-center mt-12">{{ skill.title }}</v-card-title>
-          <v-card-subtitle>
-            <v-rating v-model="skill.rating" readonly size="x-small"></v-rating>
+          <v-card-subtitle class="text-center text-uppercase">
+            {{ skill.tag }}
           </v-card-subtitle>
         </v-card>
       </v-row>
@@ -34,67 +34,70 @@ export default {
     skills: [
       {
         title: 'css',
-        rating: 5
+        tag: 'language'
       },
       {
         title: 'golang',
-        rating: 4
+        tag: 'language'
+
+
       },
       {
         title: 'html',
-        rating: 5
+        tag: 'language'
       },
       {
         title: 'java',
-        rating: 5
+        tag: 'language'
       },
       {
         title: 'javascript',
-        rating: 5
+        tag: 'language'
       },
       {
-        title: 'php',
-        rating: 5
+        title:  'php 8',
+        tag: 'language'
       },
       {
         title: 'sql',
-        rating: 5
+        tag: 'language'
       },
       {
         title: 'swift',
-        rating: 5
+        tag: 'language'
       },
       {
         title: 'typescript',
-        rating: 5
+        tag: 'language'
       },
       {
         title: 'agile',
-        rating: 5
+        tag: 'other'
       },
       {
         title: 'waterfall',
-        rating: 5
+        tag: 'other'
       },
       {
         title: 'scrum',
-        rating: 5
+        rating: 5,
+        tag: 'other'
       },
       {
         title: 'Angular JS',
-        rating: 5
+        tag: 'framework'
       },
       {
         title: 'spring boot',
-        rating: 5
+        tag: 'framework'
       },
       {
         title: 'swift ui',
-        rating: 5
+        tag: 'framework'
       },
       {
         title: 'vue js',
-        rating: 5
+        tag: 'framework'
       }
     ]
   })
