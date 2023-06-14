@@ -1,6 +1,6 @@
 <template>
   <div class="main2" id="experience">
-    <h1 style="text-align: center; padding: 50px; font-size: 36px"><b>EXPERIENCE</b></h1>
+    <h1 style="text-align: center; color: white; padding: 50px; font-size: 36px"><b>EXPERIENCE</b></h1>
     <div class="panels mx-auto">
       <v-expansion-panels variant="popout">
         <v-expansion-panel v-for="job in jobs">
