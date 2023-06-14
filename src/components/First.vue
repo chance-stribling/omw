@@ -17,9 +17,10 @@
   font-size: 20px;
   width: 150px;
   color: white;
+  margin-top: 5px;
 }
 .main1 {
-  max-height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   color: white;
   text-align: center;
