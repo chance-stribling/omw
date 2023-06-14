@@ -1,6 +1,6 @@
 <template>
   <div class="main3" id="skills">
-    <h1 style="text-align: center; padding: 50px"><i>SKILLS</i></h1>
+    <h1 style="text-align: center; padding: 50px; font-size: 36px"><b>SKILLS</b></h1>
     <div style="max-width: 800px" class="mx-auto">
       <v-row class="mx-auto">
         <v-card height="180px" width="180px" class="card-hover mx-auto my-1" v-for="skill in skills">
