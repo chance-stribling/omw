@@ -20,7 +20,7 @@
   margin-top: 5px;
 }
 .main1 {
-  min-height: 100vh;
+  max-height: 100vh;
   width: 100vw;
   color: white;
   text-align: center;
