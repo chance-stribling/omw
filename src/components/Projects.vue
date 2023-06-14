@@ -1,6 +1,6 @@
 <template>
   <div class="main3" id="projects">
-    <h1 style="text-align: center; padding: 50px"><i>Projects</i></h1>
+    <h1 style="text-align: center; padding: 50px; font-size: 36px"><b>Projects</b></h1>
     <div style="max-width: 70vw" class="mx-auto my-5">
       <v-row>
         <v-card
@@ -29,7 +29,9 @@
   min-height: 120vh;
   width: 100vw;
   background-color: #aedcc0;
-  color: black;
+  background-image: url(../assets/ivy2.jpg);
+  background-size: cover;
+  color: white;
   padding-bottom: 15px;
 }
 .card-hover:hover {
