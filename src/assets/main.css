@@ -4,3 +4,9 @@
   margin: 0 auto;
   font-weight: normal;
 }
+@media screen and (max-width: 1080px) {
+  #app {
+    margin: 0 auto;
+    font-weight: normal;
+  }
+}

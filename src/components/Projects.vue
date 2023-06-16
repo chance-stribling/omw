@@ -1,13 +1,12 @@
 <template>
   <div class="main3" id="projects">
     <h1 style="text-align: center; padding: 50px; font-size: 36px"><b>Projects</b></h1>
-    <div style="max-width: 70vw" class="mx-auto my-5">
+    <div style="max-width: 90vw" class="mx-auto my-5">
       <v-row>
         <v-card
-          min-height="200px"
-          width="60vw"
+
           color="white"
-          class="card-hover mx-auto my-1"
+          class="card-hover card mx-auto my-1"
           v-for="project in projects"
         >
           <v-card-title class="text-center mt-12">{{ project.title }}</v-card-title>
@@ -37,6 +36,18 @@
 .card-hover:hover {
   scale: 1.01;
 }
+.card{
+  background-color: white;
+  min-height: 200px;
+  width: 60vw;
+
+}
+@media screen and (max-width: 1080px) {
+  .card{
+  width: 100vw;
+
+}
+  }
 </style>
 <script>
 export default {
