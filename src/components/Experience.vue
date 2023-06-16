@@ -109,7 +109,7 @@ export default {
       },
       {
         title: 'Network Technician',
-        location: 'Motion Lite Service',
+        location: 'Motion Lite Services',
         start: 'Feb 2022',
         end: 'May 2022',
         descriptions: [
