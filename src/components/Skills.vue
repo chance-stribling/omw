@@ -1,10 +1,12 @@
 <template>
   <div class="cover">
 
-        
-        <h1 class="text-uppercase" id="billboard">
-          SKILLS 
-        </h1>
+        <div style="max-width: 100%;">
+
+          <h1 class="text-uppercase" id="billboard">
+            SKILLS 
+          </h1>
+        </div>
 
   </div>
   <div class="main3" id="skills">
@@ -25,7 +27,7 @@
   width: 100vw;
   position: absolute;
   background-color: transparent;
-  font-size: 150px;
+  font-size: 100px;
   color: white;
   text-align: center;
   overflow: hidden;
@@ -51,7 +53,7 @@
   opacity: 20%;
 }
 #billboard{
-  transform: translateY(30%);
+  transform: translateY(100%);
 }
 </style>
 <script>
