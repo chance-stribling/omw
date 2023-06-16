@@ -32,6 +32,21 @@
   text-align: center;
   overflow: hidden;
 }
+#billboard{
+  transform: translateY(100%);
+}
+@media screen and (max-width: 600px) {
+  .cover{
+    height: 0;
+    width: 0;
+    position: absolute;
+    background-color: transparent;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+}
 .main3 {
   min-height: 100vh;
   width: 100vw;
@@ -52,9 +67,7 @@
   
   opacity: 20%;
 }
-#billboard{
-  transform: translateY(100%);
-}
+
 </style>
 <script>
 export default {
