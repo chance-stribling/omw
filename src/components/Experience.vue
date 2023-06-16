@@ -2,7 +2,7 @@
   <div class="main2" id="experience">
     <h1 style="text-align: center; color: white;  padding: 50px; font-size: 36px"><b>EXPERIENCE</b></h1>
     <div class="panels mx-auto">
-      <v-expansion-panels variant="inset">
+      <v-expansion-panels class="mx-auto" variant="inset">
         <v-expansion-panel v-for="job in jobs">
           <v-expansion-panel-title color="#607466" class="text-white">
             <v-row style="line-height: 50px">
@@ -88,7 +88,7 @@ export default {
       {
         title: 'QC Analyst',
         location: 'i3 Verticals',
-        start: 'December 2023',
+        start: 'Dec 2023',
         end: 'Current',
         descriptions: [
           'Perform manual and automated tests to ensure the software developed by developers is fit to use.',
@@ -110,7 +110,7 @@ export default {
       {
         title: 'Network Technician',
         location: 'Motion Lite Service',
-        start: 'February 2022',
+        start: 'Feb 2022',
         end: 'May 2022',
         descriptions: [
           'Maintained and improved infrastructure for clients.',
@@ -121,8 +121,8 @@ export default {
       {
         title: 'Repair Technician',
         location: 'UBreakIFix by Asurion',
-        start: 'February 2021',
-        end: 'February 2022',
+        start: 'Feb 2021',
+        end: 'Feb 2022',
         descriptions: [
           'Troubleshot and repaired mobile devices, televisions, PCs, and various other devices with interchangeable parts. ',
           'Kept in constant contact with customers to inform them of the status of their repairs and walked them through the next steps.'
@@ -131,8 +131,8 @@ export default {
       {
         title: 'QA Tester',
         location: 'Electronic Arts Studio',
-        start: 'October 2020',
-        end: 'February 2021',
+        start: 'Oct 2020',
+        end: 'Feb 2021',
         descriptions: [
           'Tasked with using Jira and TestRail to locate and validate any bugs found while testing. ',
           'Trained to follow proper beta testing procedures and how to make testing reports.',
