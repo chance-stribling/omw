@@ -2,7 +2,7 @@
   <div class="main2" id="experience">
     <h1 style="text-align: center; color: white;  padding: 50px; font-size: 36px"><b>EXPERIENCE</b></h1>
     <div class="panels mx-auto">
-      <v-expansion-panels variant="popout">
+      <v-expansion-panels variant="inset">
         <v-expansion-panel v-for="job in jobs">
           <v-expansion-panel-title color="#607466" class="text-white">
             <v-row style="line-height: 50px">
@@ -59,6 +59,11 @@
   background-color: #aedcc0;
   background-image: url(../assets/ivy1.jpg);
   background-size: cover;
+}
+@media screen and (max-width: 1080px) {
+  .panels {
+  width: 100vw;
+}
 }
 
 </style>
