@@ -44,7 +44,7 @@
 .card:hover {
   scale: 1.1;
   color: #7bd389;
-  opacity: 100%;
+  opacity: 90%;
 }
 .card{
   
