@@ -18,7 +18,7 @@
                     Start Date: {{ job.start || 'Not set' }}
                   </v-col>
                   <v-col cols="6" class="d-flex justify-start">
-                    End date: {{ job.end || 'Current' }}
+                    End Date: {{ job.end || 'Current' }}
                   </v-col>
                 </v-row>
               </v-col>
