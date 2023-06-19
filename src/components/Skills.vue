@@ -134,6 +134,12 @@ export default {
         shaped: false
       },
       {
+        title: 'aws amplify',
+        tag: 'other',
+        id:16,
+        shaped: false
+      },
+      {
         title: 'agile',
         tag: 'other',
         id:9,
