@@ -13,7 +13,7 @@
     <h1 style="text-align: center; padding: 50px; font-size: 36px"><b>SKILLS</b></h1>
     <div style="max-width: 800px" class="mx-auto">
       <v-row class="mx-auto">
-        <v-card height="180px" width="180px" class="prevent-select card mx-auto my-1" :id="'card'+ skill.id" v-for="skill in skills" @click="backgroundChange(skill.title)">
+        <v-card height="180px" width="180px" class="prevent-select card mx-auto my-1" :id="'card'+ skill.id" v-for="skill in skills" @mouseover="backgroundChange(skill.title)">
           <v-card-title class="text-uppercase text-center mt-15">{{ skill.title }}</v-card-title>
 
         </v-card>
@@ -77,12 +77,6 @@ export default {
   data: () => ({
     date: null,
     skills: [
-      {
-        title: 'css',
-        tag: 'language',
-        id:0,
-        shaped: false
-      },
       {
         title: 'golang',
         tag: 'language',
